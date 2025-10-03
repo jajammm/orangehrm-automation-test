@@ -1,11 +1,9 @@
 import ForgotPasswordPage from "../pom/ForgotPassword.js";
 
 describe("Forgot Password Scenario - OrangeHRM", () => {
-  let forgotPasswordPage;
+  const forgotPasswordPage = new ForgotPasswordPage();
 
   beforeEach(() => {
-    forgotPasswordPage = new ForgotPasswordPage();
-
     forgotPasswordPage.setupIntercepts();
     forgotPasswordPage.visitLoginPage();
   });
