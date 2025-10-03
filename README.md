@@ -102,7 +102,7 @@ npx cypress run --browser edge
 
 ### 📁 Directory Features
 
-- **Total Test Cases**: 15
+- **Total Test Cases**: 13
 - **Coverage**:
   - ✅ Employee search functionality
   - ✅ Filter by Job Title
@@ -116,10 +116,9 @@ npx cypress run --browser edge
 
 ### 🔄 Forgot Password Features
 
-- **Total Test Cases**: 5+
+- **Total Test Cases**: 3
 - **Coverage**:
   - ✅ Valid username scenarios
-  - ✅ Invalid username handling
   - ✅ Empty field validation
   - ✅ Success message verification
 
